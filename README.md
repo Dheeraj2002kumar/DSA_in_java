@@ -7,5 +7,5 @@
 Example –
 	Input: arr = {3, 2, 4, 7, 10 , 6, 5}
 	Output: arr = {3, 7, 5}
-* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Remove%20Even%20Integer/removeEvenInteger.java"> Remove Even Integers From an Array</a>
+--> <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Remove%20Even%20Integer/removeEvenInteger.java"> Remove Even Integers From an Array</a>
 </pre>
