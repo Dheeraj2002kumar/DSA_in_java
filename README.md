@@ -9,7 +9,8 @@ Example –
 	Output: arr = {3, 7, 5}
 --> <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Remove%20Even%20Integer/removeEvenInteger.java"> Remove Even Integers From an Array</a>
 </pre>
-<h4>How to reverse an array in java</h4>
+
+* <h4>How to reverse an array in java</h4>
 <pre>
 	Q. Give an array or string, the task is to reverse the array or string. 
 Example-
@@ -31,10 +32,10 @@ reverseArray(int numbers[], int start, int end){
 
 reverseArray(numbers, 0, numbers.length – 1)
 
-</pre>
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/ReverseArray/ReverseArray.java">Reverse Array</a>
+</pre>
 
-<h4>Find Minimum value in array</h4>
+* <h4>Find Minimum value in array</h4>
 <pre> 
 Algorithm-
 	
@@ -48,12 +49,12 @@ Public int findMinimum(int[] arr){
      Return min;
 } 
 
-</pre>
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/MinArray/MinArray.java">Find minimum value in array</a>
+</pre>
 
-<h4>Find Second Maximum Value in an Array</h4>
+* <h4>Find Second Maximum Value in an Array</h4>
 <pre>
-	Q. Give an array of integers, return second maximum value. The second maximum value exists.
+Q. Give an array of integers, return second maximum value. The second maximum value exists.
 Example-
 	Input:  arr={12, 34, 2, 34, 33, 1}
 	Output: 33
@@ -101,8 +102,8 @@ Solution –
     }  
 
 
-</pre>
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/moveAllZeroToEnd/moveAllZeroToEnd.java">Move all Zero's to end of an array</a>
+</pre>
 
 * <h4>How to resize an Array in Java</h4>
 
@@ -145,7 +146,8 @@ Example 1:-
 	
 arr[]           1        2           3           5                         4 numbers
                0         1           2               3                         1 to 5
-N = 5
+
+	N = 5
 	= 5*(5+1)/2
 	= 5*6/2	= 30/2	= 15
 Then subtract the each element of the arr to the given sum i.e. 15
@@ -191,9 +193,9 @@ int findMissingNumber(int[] arr){
 Find missingNumber(arr);   
 
 
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/missingValueInArray/missingValueInArray.java">Missing number in an array</a>
 </pre>
 
-<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/missingValueInArray/missingValueInArray.java">Missing number in an array</a>
 
 * <h4>How to check if a String is Palindrome or not</h4>
 
@@ -223,4 +225,36 @@ Public Boolean isPalindrome(String word){
 
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/String/StringUtil.java">Check Palindrome</a>
 </pre>
+
+* <h4>How to create a Singly Linked List <h4>
+<pre>
+--> Algorithm:-
+// head is instance variable
+head = new ListNode(10);
+ListNode second = new ListNode(1);
+ListNode third = new ListNode(8);
+ListNode fourth = new ListNode(11);
+head.next = second;
+second.next = third;
+third.next = fourth;
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/Create%20s%20Singly%20Linked%20List/Create_SLList.java">Create Singly Linked List</a>
+	
+</pre>
+
+<h4>How to print elements of a Singly Linked List</h4>
+
+<pre>
+Output -10  1  8  11  null
+
+ListNode current = head;
+While(current != null){
+	System.out.print(current.data + “ --> “ );
+	Current = current.next;
+}
+System.out.print(“null”);  
+
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/Print_element_SLL/print_elementSLL.java">Print element in Singly Linked List</a>
+
+</pre>
+
 
