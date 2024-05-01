@@ -107,6 +107,8 @@ Solution –
 <h4>How to resize an Array in Java</h4>
 
 <pre>
+Algorith:-
+
 public void resize(int[] arr, int capacity){
     int[] temp = new int[capacity];
     for(int i=0; i<arr.length; i++){
@@ -114,10 +116,9 @@ public void resize(int[] arr, int capacity){
     }
     Return temp;  
 }
-
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/resizeArray/resizeArray.java">Resize an Array</a>
 </pre>
 
-<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/resizeArray/resizeArray.java">Resize an Array</a>
 
 <h4>Find the Missing Number in an Array</h4>
 
