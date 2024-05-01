@@ -75,7 +75,7 @@ Algorithm-
 }                                                   
 </pre>
 
-<h4>Move all Zero’s to end of an Array</h4>
+*  <h4>Move all Zero’s to end of an Array</h4>
 <pre>
 Q. Given an array of integers, write a function to move all 0’s to end of it while maintaining the relative order of the non-zero elements.
 
@@ -104,7 +104,7 @@ Solution –
 </pre>
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/moveAllZeroToEnd/moveAllZeroToEnd.java">Move all Zero's to end of an array</a>
 
-<h4>How to resize an Array in Java</h4>
+* <h4>How to resize an Array in Java</h4>
 
 <pre>
 Algorith:-
@@ -120,7 +120,7 @@ public void resize(int[] arr, int capacity){
 </pre>
 
 
-<h4>Find the Missing Number in an Array</h4>
+* <h4>Find the Missing Number in an Array</h4>
 
 <pre>
 Q. Given an array of n – 1 distinct numbers in the range of 1 to n. Find the missing number in it.
@@ -195,7 +195,7 @@ Find missingNumber(arr);
 
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/missingValueInArray/missingValueInArray.java">Missing number in an array</a>
 
-<h4>How to check if a String is Palindrome or not</h4>
+* <h4>How to check if a String is Palindrome or not</h4>
 
 <pre>
 Q.  Given a string, the task is check whether given string is palindrome or not.
@@ -221,6 +221,6 @@ Public Boolean isPalindrome(String word){
 	Return true;
 }  
 
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/String/StringUtil.java">Check Palindrome</a>
 </pre>
 
-<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/String/StringUtil.java">Check Palindrome</a>
