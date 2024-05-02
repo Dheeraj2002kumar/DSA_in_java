@@ -106,9 +106,8 @@ Solution –
 </pre>
 
 * <h4>How to resize an Array in Java</h4>
-
 <pre>
-Algorith:-
+* Algorith:-
 
 public void resize(int[] arr, int capacity){
     int[] temp = new int[capacity];
@@ -241,7 +240,7 @@ third.next = fourth;
 	
 </pre>
 
-<h4>How to print elements of a Singly Linked List</h4>
+* <h4>How to print elements of a Singly Linked List</h4>
 
 <pre>
 Output -10  1  8  11  null
@@ -355,7 +354,7 @@ public ListNode deleteFirst(){
 <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/DeleteFirstNodeInSLL/DeleteFirstNodeInSLL.java"> Delete First node of SLL</a>
 </pre>
 
-<h4>Delete last node of a Singly Linked List</h4>
+* <h4>Delete last node of a Singly Linked List</h4>
 <pre>
 * Algorithm:-
  public ListNode deleteLast(){
@@ -429,7 +428,7 @@ public void delete(int position){
 * <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/findElementSLL/findElementSLL.java">Search / find element in SLL</a>
 </pre>
 
-<h4>How to reverse a Singly Linked List in Java</h4>
+* <h4>How to reverse a Singly Linked List in Java</h4>
 <pre>
 * Algorithm:-
  public ListNode reverse(ListNode head) {
