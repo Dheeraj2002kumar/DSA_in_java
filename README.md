@@ -257,4 +257,199 @@ System.out.print(“null”);
 
 </pre>
 
+* <h4>How to find length of a Singly Linked List<h4>
+<pre>
+--> Algorithm:-
+public int lenght(){
+    if(head == null){
+      return 0;
+    }
+    int count = 0;
+    ListNode current = head;
+    while(current != null){
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/PrintLengthSLL/PrintLenghtSLL.java">Length of Singly Linked List</a>
+</pre>
+
+* <h4>How to insert node at the beginning of a singly Linked List </h4>
+<pre>
+--> Algorithm:-
+ public void insertFirst(int value) {
+    ListNode newNode = new ListNode(value);
+    newNode.next = head;
+    head = newNode;
+  }
+--> <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/insertDataTheBegining_in_singlyLinkList/insertDataTheBegining_in_singlyLinkList.java">Insert node at beginning</a>
+</pre>
+
+* <h4>How to insert a node at the end of a Singly Linked List </h4>
+<pre>
+--> Algorithm:-
+public void insertLast(int value){
+    ListNode newNode = new ListNode(value);
+    if(head == null) {
+      head = newNode;
+      return;
+    }
+    ListNode current = head;
+    while(null != current.next){
+      current = current.next;
+    }
+    current.next = newNode;
+  }
+
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/insertNodeAtTheEnd/insertNodeAtTheEnd.java">Insert node at end </a>
+</pre>
+
+* <h4>Insert a node in a singly Linked List at a given position</h4>
+<pre>
+Q. Implement method to insert a node at a given position. Assuming position to be valid and starting from 1.
+For example – Given following Singly Linked List
+
+head
+
+  10   ----->	1	 ---->	8	----->11	---->	null
+
+* Algorithm:-
+public void insert(int position, int value){
+    // 1 -> 4 -> 5
+    // 1 -> 6 -> 4 -> 5
+    ListNode node = new ListNode(value);
+
+    if(position == 1){
+      node.next = head;
+      head = node;
+    } else {
+      ListNode previous = head;
+      int count = 1; // position - 1
+
+      while(count < position - 1){
+        previous = previous.next;
+        count++;
+      }
+      ListNode current = previous.next;
+      previous.next = node;
+      node.next = current;
+    }
+  }
+
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/insertNodeInAnyOfThePositionSLL/insertNodeInAnyOfThePosition.java">Insert node at given position</a>
+</pre>
+
+* <h4>Delete first node of a Singly Linked List</h4>
+<pre>
+* Algorithm:-
+public ListNode deleteFirst(){
+    if(head == null){
+      return null;
+    }
+    ListNode temp = head;
+    head = head.next;
+    temp.next = null;
+    return temp;
+  }
+<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/DeleteFirstNodeInSLL/DeleteFirstNodeInSLL.java"> Delete First node of SLL</a>
+</pre>
+
+<h4>Delete last node of a Singly Linked List</h4>
+<pre>
+* Algorithm:-
+ public ListNode deleteLast(){
+    if(head == null || head.next == null){
+      return head;
+    }
+    ListNode current = head;
+    ListNode previous = null;
+
+    while(current.next != null){
+      previous = current;
+      current = current.next;
+    }
+    previous.next = null; // break the chain
+    return current;
+  }
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/DeleteLastNodeInSLL/DeleteLastNodeInSLL.java">Delete last node of a SLL</a>
+</pre>
+
+* <h4>Delete a node from a Singly Linked List at a given position</h4>
+<pre>
+Q. Implement method to delete a node at a given position. Assuming position to be valid and starting from 1.
+For example- Given following Singly Linked List
+   head 
+    ^
+    |
+   10 -->1-->8-->11-->	null
+
+* Algorithm:-
+public void delete(int position){
+    // position is valid and starting from 1
+    // 11 --> 8 --> 1 --> 2 --> 7 --> null
+    if(position == 1){
+      head = head.next;
+    }
+    else {
+      ListNode previous = head;
+      int count = 1;
+      while(count < position - 1){
+        previous = previous.next;
+        count++;
+      }
+
+      ListNode current = previous.next;
+      previous.next = current.next;
+    }
+  }
+
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/deleteGivenPositionSLL/deleteGivenPositionSLL.java">Insert node at given position</a>
+</pre>
+
+* <h4>How to search an element in a Linked List </h4>
+<pre>
+* Algorithm:-
+// find element in singly linked list
+  public boolean find(ListNode head, int searchKey){
+    if(head == null){
+      return false;
+    }
+
+    ListNode current = head;
+    while(current != null){
+      if(current.data == searchKey){
+        return true;
+      }
+      current = current.next;
+    }
+    return false;
+  }
+
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/findElementSLL/findElementSLL.java">Search / find element in SLL</a>
+</pre>
+
+<h4>How to reverse a Singly Linked List in Java</h4>
+<pre>
+* Algorithm:-
+ public ListNode reverse(ListNode head) {
+       if (head == null) {
+          return head;
+       }
+ 
+       ListNode current = head;
+       ListNode previous = null;
+       ListNode next = null;
+ 
+       while (current != null) {
+          next = current.next;
+          current.next = previous;
+          previous = current;
+          current = next;
+       }
+       return previous;
+    }
+
+* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/reverseSLL/reverseSLL.java">Reverse element in SLL</a>
+</pre>
 
