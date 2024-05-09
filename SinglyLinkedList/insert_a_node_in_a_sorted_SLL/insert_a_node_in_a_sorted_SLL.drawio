@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zBbhVLINDeqbN9u_Zqdy" name="Page-1">
-        <mxGraphModel dx="1368" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="600" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -569,10 +569,10 @@
                     <mxGeometry x="665" y="2790" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="161" value="newNode.data = 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry y="2810" width="145" height="30" as="geometry"/>
+                    <mxGeometry x="22.5" y="2810" width="145" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="162" value="current.data = 16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-                    <mxGeometry y="2850" width="130" height="30" as="geometry"/>
+                    <mxGeometry x="25" y="2850" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="163" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Times New Roman;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="164" target="153">
                     <mxGeometry relative="1" as="geometry">
