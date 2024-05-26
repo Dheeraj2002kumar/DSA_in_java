@@ -102,7 +102,7 @@ Solution –
     }  
 
 
-<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/moveAllZeroToEnd/moveAllZeroToEnd.java">Move all Zero's to end of an array</a>
+*--><a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/moveAllZeroToEnd/moveAllZeroToEnd.java">Move all Zero's to end of an array</a>
 </pre>
 
 * <h4>How to resize an Array in Java</h4>
