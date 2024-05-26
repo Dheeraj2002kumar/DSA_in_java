@@ -371,7 +371,7 @@ public ListNode deleteFirst(){
     previous.next = null; // break the chain
     return current;
   }
-* <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/DeleteLastNodeInSLL/DeleteLastNodeInSLL.java">Delete last node of a SLL</a>
+*--> <a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/SinglyLinkedList/DeleteLastNodeInSLL/DeleteLastNodeInSLL.java">Delete last node of a SLL</a>
 </pre>
 
 * <h4>Delete a node from a Singly Linked List at a given position</h4>
