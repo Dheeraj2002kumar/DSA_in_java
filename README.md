@@ -32,7 +32,7 @@ reverseArray(int numbers[], int start, int end){
 
 reverseArray(numbers, 0, numbers.length – 1)
 
-<a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/ReverseArray/ReverseArray.java">Reverse Array</a>
+*--><a href="https://github.com/Dheeraj2002kumar/DSA_in_java/blob/main/Array/ReverseArray/ReverseArray.java">Reverse Array</a>
 </pre>
 
 * <h4>Find Minimum value in array</h4>
